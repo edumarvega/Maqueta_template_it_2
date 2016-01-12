@@ -1,0 +1,3 @@
+usuario: @templateit	
+pass: struts02
+correo: templateitarg@gmail.com

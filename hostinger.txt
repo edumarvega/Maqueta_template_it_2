@@ -1,0 +1,5 @@
+usuario:templateitarg@gmail.com
+pass :struts02
+
+contraseña del dominio: struts02
+contraseña del dominio generada: QKaCGJ4pMQ

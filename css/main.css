@@ -1,0 +1,313 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    padding-top: 40px;
+
+}    
+
+header{
+    background-color: #5bc0de;
+}
+
+#quienessomos,#quehacemos,#tecnologias,#clientes,#contacto{
+       padding-top: 40px;
+}
+
+.texto{
+    color: #5bc0de;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #C8C8C8;
+
+}
+
+.centrar{
+    padding-top: 3px;
+    padding-left: 320px;
+}
+.textologo{ 
+    color: #ffffff;
+    font-size: 44px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+
+.textopage{
+    font-family: 'Roboto Slab', serif;
+}
+
+.textowhatsapp{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fondo-logo{
+    background-color: #5bc0de;
+}
+
+.fondo-quehacemos{
+    background-color: #2badd4;    
+}
+
+.fondo-quienessomos{
+    background-color: #27a0c3;
+}
+
+.fondo-tecnologias{
+    background-color: #2492b3;
+}
+
+
+.fondo-clientes{
+    background-color: #2185a3;
+}
+
+
+.fondo-contacto{
+    background-color: #1d7892;
+}
+
+.fondo-footer{
+    background-color: #000000;
+}
+
+.section-home{
+  background: url(image/maconly02.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.texto-software{
+    /*color: #FFFF00;*/
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px #000;
+    font-family: 'Francois One', sans-serif;
+}
+.fondo-software{
+    background-color: #F0F0F0 ;
+}
+
+.texto-titulo{
+    color: #FFFFFF;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+   
+}
+
+.texto-pagina{
+    color: #FFFFFF;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 21px;
+}
+
+.texto-recomendacion{
+    color: #FFFFFF;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

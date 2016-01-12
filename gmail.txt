@@ -1,0 +1,2 @@
+usuario: templateitarg@gmail.com
+pass: struts02
